@@ -6,6 +6,7 @@ services:
       args:
         IPADDR: 172.24.0.10
         NETMASK: 255.255.0.0
+        SERVICE: master
     volumes:
       - ./master:/code
     networks:
