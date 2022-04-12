@@ -1,0 +1,26 @@
+services:
+  master:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        IPADDR: 172.24.0.10
+        NETMASK: 255.255.0.0
+    volumes:
+      - ./master:/code
+    networks:
+      bind:
+        ipv4_address: 172.24.0.10 
+    hostname: master.example.com
+    tty: true
+    cap_add: 
+      - NET_ADMIN
+
+
+networks:
+  bind:
+    driver: bridge
+    ipam: 
+      config:
+        - subnet: 172.24.0.0/16
+          gateway: 172.24.0.1
