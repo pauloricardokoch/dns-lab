@@ -11,9 +11,12 @@ down: deps
 	@docker-compose down -v
 
 exec: deps
-	@docker-compose exec -u root --privileged master bash
+	@docker-compose exec -u root --privileged ${SERVICE} bash
 
 logs: deps
 	@docker-compose logs -f
 
-.PHONY: deps build up down exec logs
+ps: deps
+	@docker-compose ps
+
+.PHONY: deps build up down exec logs ps
