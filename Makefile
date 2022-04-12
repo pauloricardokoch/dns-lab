@@ -16,4 +16,4 @@ exec: deps
 logs: deps
 	@docker-compose logs -f
 
-.PHONY: deps build down exec logs
+.PHONY: deps build up down exec logs
