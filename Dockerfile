@@ -13,10 +13,6 @@ RUN yum update -y \
   && rm -rf /var/cache
 
 
-COPY ./master /code
-WORKDIR /code
-
-
 ARG IPADDR
 ARG NETMASK
 ARG SERVICE
@@ -26,3 +22,7 @@ RUN sed -i 's/BOOTPROTO=dhcp/BOOTPROTO=static/g' /etc/sysconfig/network-scripts/
 RUN echo IPADDR=${IPADDR} >> /etc/sysconfig/network-scripts/ifcfg-ens3 
 RUN echo NETMASK=${NETMASK} >> /etc/sysconfig/network-scripts/ifcfg-ens3 
 RUN echo ${IPADDR} $(hostname) ${SERVICE} >> /etc/hosts
+
+
+COPY ./master /code
+WORKDIR /code
