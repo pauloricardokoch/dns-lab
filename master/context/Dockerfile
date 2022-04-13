@@ -8,7 +8,7 @@ RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|
 
 RUN yum update -y \
   && yum install --enablerepo=powertools net-tools iptables iptables-services \
-  elinks wget git curl bind bind-utils httpd -y \
+  elinks wget git curl bind bind-utils httpd vsftpd -y \
   && yum -y clean all \
   && rm -rf /var/cache
 
@@ -18,11 +18,11 @@ ARG NETMASK
 ARG SERVICE
 
 
-RUN sed -i 's/BOOTPROTO=dhcp/BOOTPROTO=static/g' /etc/sysconfig/network-scripts/ifcfg-ens3 
-RUN echo IPADDR=${IPADDR} >> /etc/sysconfig/network-scripts/ifcfg-ens3 
-RUN echo NETMASK=${NETMASK} >> /etc/sysconfig/network-scripts/ifcfg-ens3 
+RUN sed -i 's/BOOTPROTO=dhcp/BOOTPROTO=static/g' /etc/sysconfig/network-scripts/ifcfg-ens3
+RUN echo IPADDR=${IPADDR} >> /etc/sysconfig/network-scripts/ifcfg-ens3
+RUN echo NETMASK=${NETMASK} >> /etc/sysconfig/network-scripts/ifcfg-ens3
 RUN echo ${IPADDR} $(hostname) ${SERVICE} >> /etc/hosts
 
 
-COPY ./master /code
+COPY ./master/code /code
 WORKDIR /code

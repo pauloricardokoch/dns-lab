@@ -2,64 +2,55 @@ services:
   master:
     build:
       context: .
-      dockerfile: ./master/Dockerfile
+      dockerfile: ./master/context/Dockerfile
       args:
         IPADDR: 172.24.0.10
         NETMASK: 255.255.0.0
         SERVICE: master
-    volumes:
-      - ./master:/code
     networks:
       bind:
-        ipv4_address: 172.24.0.10 
+        ipv4_address: 172.24.0.10
     hostname: master.example.com
     tty: true
-    cap_add: 
+    cap_add:
       - NET_ADMIN
-
 
   slave:
     build:
       context: .
-      dockerfile: ./slave/Dockerfile
+      dockerfile: ./slave/context/Dockerfile
       args:
         IPADDR: 172.24.0.41
         NETMASK: 255.255.0.0
         SERVICE: slave
-    volumes:
-      - ./slave:/code
     networks:
       bind:
         ipv4_address: 172.24.0.41
     hostname: slave.example.com
     tty: true
-    cap_add: 
+    cap_add:
       - NET_ADMIN
-
 
   client:
     build:
       context: .
-      dockerfile: ./client/Dockerfile
+      dockerfile: ./client/context/Dockerfile
       args:
         IPADDR: 172.24.0.11
         NETMASK: 255.255.0.0
         SERVICE: client
-    volumes:
-      - ./client:/code
     networks:
       bind:
         ipv4_address: 172.24.0.11
     hostname: client.example.com
     tty: true
-    cap_add: 
+    cap_add:
       - NET_ADMIN
-
 
 networks:
   bind:
     driver: bridge
-    ipam: 
+    ipam:
       config:
         - subnet: 172.24.0.0/16
-          gateway: 172.24.0.1
+          gateway: 172.24.0.10
