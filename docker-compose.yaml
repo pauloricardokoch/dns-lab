@@ -10,6 +10,8 @@ services:
     networks:
       bind:
         ipv4_address: 172.24.0.10
+    volumes:
+      - ./master/code:/code
     hostname: master.example.com
     tty: true
     cap_add:
@@ -26,6 +28,8 @@ services:
     networks:
       bind:
         ipv4_address: 172.24.0.41
+    volumes:
+      - ./slave/code:/code
     hostname: slave.example.com
     tty: true
     cap_add:
@@ -42,6 +46,8 @@ services:
     networks:
       bind:
         ipv4_address: 172.24.0.11
+    volumes:
+      - ./client/code:/code
     hostname: client.example.com
     tty: true
     cap_add:
@@ -53,4 +59,4 @@ networks:
     ipam:
       config:
         - subnet: 172.24.0.0/16
-          gateway: 172.24.0.10
+          gateway: 172.24.0.1

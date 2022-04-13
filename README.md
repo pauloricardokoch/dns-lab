@@ -83,3 +83,41 @@ resolver <-> local NS
 
                         <- return ip address
 ```
+
+# Master configuration.
+
+```bash
+$ cat /etc/named.conf
+
+acl "masterserver" { 172.24.0.0/16 };
+
+options {
+    listen-on port 53 { 127.0.0.1; 172.24.0.10 };
+    listen-on-v6 port 53 { ::1; };
+    // all paths defined in this file are relative to directory
+    directory 	"/var/named";
+    dump-file 	"/var/named/data/cache_dump.db";
+    statistics-file "/var/named/data/named_stats.txt";
+    memstatistics-file "/var/named/data/named_mem_stats.txt";
+    secroots-file	"/var/named/data/named.secroots";
+    recursing-file	"/var/named/data/named.recursing";
+    // hosts that can query the DNS server
+    allow-query     { localhost; masterserver };
+    // host that can get data from the DNS server, default is any host
+    allow-transfer  { localhost; masterserver };
+    recursion yes;
+};
+
+
+zone "example.com" IN {
+    type master;
+    file "forward";
+};
+
+
+zone "0.24.172.in-addr-arpa" IN {
+    type master;
+    file "reverse";
+};
+
+```
