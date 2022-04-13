@@ -35,48 +35,51 @@ A DNS zone is a portion of the DNS namespace that is managed by a specific organ
 
 # Types of queries. 
 ## Iterative query.
+```
 resolver -> local 
 
-              <- contact root server 
+            <- contact root server 
 
 resolver -> root
 
-              <- contact top level
+            <- contact top level
 
 resolver -> top level
 
-              <- contact second level
+            <- contact second level
 
 resolver -> second level
   
-              <- return ip address
-
+            <- return ip address
+```
 More load on the resolvers.
 
 
 ## Recursive query.
+```
 resolver <-> local NS
 
-                <-> root
+                 <-> root
 
-                        <-> top level
+                         <-> top level
 
-                                <-> second level
-
+                                 <-> second level
+```
 Adds load on top level domain servers.
 
 ## Hybrid query.
+```
 resolver <-> local NS
 
-                -> root
+                 -> root
 
-                      <- contact top level
+                        <- contact top level
 
-                -> top level
+                 -> top level
 
-                      <-  contact second level
+                        <-  contact second level
 
-                -> second level
+                 -> second level
 
-                      <- return ip address
-
+                        <- return ip address
+```
