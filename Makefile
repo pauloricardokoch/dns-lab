@@ -6,6 +6,9 @@ build: deps
 
 up: deps
 	@docker-compose up -d 
+	@docker-compose exec -u root master /code/setup.sh
+	@docker-compose exec -u root slave /code/setup.sh
+	@docker-compose exec -u root client /code/setup.sh
 	
 stop: deps
 	@docker-compose stop
@@ -13,8 +16,8 @@ stop: deps
 down: deps
 	@docker-compose down -v
 
-exec: deps
-	@docker-compose exec -u root --privileged ${SERVICE} bash
+exec-master: deps
+	@docker-compose exec -u root --privileged master bash
 
 logs: deps
 	@docker-compose logs -f
