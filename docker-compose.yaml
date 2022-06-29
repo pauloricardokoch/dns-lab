@@ -13,7 +13,7 @@ services:
     volumes:
       - ./master/code:/code
     hostname: master.example.com
-    tty: true
+    privileged: true
     cap_add:
       - NET_ADMIN
 

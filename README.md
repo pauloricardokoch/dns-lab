@@ -121,3 +121,47 @@ zone "0.24.172.in-addr-arpa" IN {
 };
 
 ```
+
+```bash
+$ cat /var/named/forward
+
+@       IN SOA  master.example.com. root.example.com. (
+                                        2022062901      ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+                IN      NS              master
+                IN      MX      10      master
+master          IN      A               172.24.0.10
+www             IN      CNAME           master
+download        IN      CNAME           master
+mail            IN      CNAME           master
+smtp            IN      CNAME           master
+imap            IN      CNAME           master
+pop             IN      CNAME           master
+```
+
+```bash
+$ cat /var/named/reverse
+
+@       IN SOA  master.example.com. root.example.com. (
+                                        2022062901      ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+                IN      NS              master.example.com.
+10              IN      PTR             master.example.com.    
+```
+
+```bash
+$ cat /etc/resolv.conf 
+
+search example.com
+nameserver 172.24.0.10
+```
+
+# Slave configuration.
+
+# Client configuration.

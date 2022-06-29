@@ -1,0 +1,8 @@
+@       IN SOA  master.example.com. root.example.com. (
+                                        2022062901      ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+                IN      NS              master.example.com.
+10              IN      PTR             master.example.com.    

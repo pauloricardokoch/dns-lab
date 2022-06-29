@@ -5,7 +5,10 @@ build: deps
 	@docker-compose build
 
 up: deps
-	@docker-compose up -d
+	@docker-compose up -d 
+	
+stop: deps
+	@docker-compose stop
 
 down: deps
 	@docker-compose down -v
