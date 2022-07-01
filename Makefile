@@ -13,6 +13,9 @@ up: deps
 stop: deps
 	@docker-compose stop
 
+start: deps
+	@docker-compose start
+
 down: deps
 	@docker-compose down -v
 
