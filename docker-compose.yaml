@@ -31,7 +31,7 @@ services:
     volumes:
       - ./slave/code:/code
     hostname: slave.example.com
-    tty: true
+    privileged: true
     cap_add:
       - NET_ADMIN
 
@@ -49,7 +49,7 @@ services:
     volumes:
       - ./client/code:/code
     hostname: client.example.com
-    tty: true
+    privileged: true
     cap_add:
       - NET_ADMIN
 

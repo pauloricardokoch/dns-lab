@@ -13,7 +13,7 @@ Root domain -> root servers
 
 Top level domains -> org, com, net, br, us, arpa ...
 
-Second level domains -> google, yahoo ... (www, mail, download)
+Second level/Authoritative domains -> google, yahoo ... (www, mail, download)
 
 
 # DNS namespace.

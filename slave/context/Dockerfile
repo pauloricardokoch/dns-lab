@@ -26,3 +26,5 @@ RUN echo ${IPADDR} $(hostname) ${SERVICE} >> /etc/hosts
 
 COPY ./master/code /code
 WORKDIR /code
+
+CMD [ "/usr/sbin/init" ]

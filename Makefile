@@ -19,6 +19,9 @@ down: deps
 exec-master: deps
 	@docker-compose exec -u root --privileged master bash
 
+exec-client: deps
+	@docker-compose exec -u root --privileged client bash
+
 logs: deps
 	@docker-compose logs -f
 
