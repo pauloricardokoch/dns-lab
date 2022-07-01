@@ -1,0 +1,15 @@
+@startuml recursive-query
+
+Resolver --> LocalNS: Do you know the IP of www.example.com.?
+Resolver <-- LocalNS: 172.24.0.10.
+
+LocalNS --> RootNS: Do you know the IP of www.example.com.?
+LocalNS <-- RootNS: 172.24.0.10.
+
+RootNS --> com: Do you know the IP of www.example.com.?
+RootNS <-- com: 172.24.0.10.
+
+com --> example.com: Do you know the IP of www.example.com.?
+com <-- example.com: Yep, the IP is 172.24.0.10.
+
+@enduml

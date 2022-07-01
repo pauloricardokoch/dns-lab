@@ -1,0 +1,16 @@
+@startuml iterative-query
+title Iterative query
+
+Resolver --> LocalNS: Do you know the IP of www.example.com.?
+Resolver <-- LocalNS: Nope, contact root NS.
+
+Resolver --> RootNS: Do you know the IP of www.example.com.?
+Resolver <-- RootNS: Nope, contact "com" NS.
+
+Resolver --> com: Do you know the IP of www.example.com.?
+Resolver <-- com: Nope, contact example.com.
+
+Resolver --> example.com: Do you know the IP of www.example.com.?
+Resolver <-- example.com: Yep, the IP is 172.24.0.10.
+
+@enduml

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="324px" preserveAspectRatio="none" style="width:1340px;height:324px;background:#0B58A8;" version="1.1" viewBox="0 0 1340 324" width="1340px" zoomAndPan="magnify"><defs/><g><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="36.2969" y2="289.3594"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="363" x2="363" y1="36.2969" y2="289.3594"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="668" x2="668" y1="36.2969" y2="289.3594"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="972.5" x2="972.5" y1="36.2969" y2="289.3594"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1278" x2="1278" y1="36.2969" y2="289.3594"/><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="76" x="20" y="5"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="62" x="27" y="24.9951">Resolver</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="76" x="20" y="288.3594"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="62" x="27" y="308.3545">Resolver</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="70" x="328" y="5"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="56" x="335" y="24.9951">LocalNS</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="70" x="328" y="288.3594"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="56" x="335" y="308.3545">LocalNS</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="68" x="634" y="5"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="54" x="641" y="24.9951">RootNS</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="68" x="634" y="288.3594"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="54" x="641" y="308.3545">RootNS</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="45" x="950.5" y="5"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="31" x="957.5" y="24.9951">com</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="45" x="950.5" y="288.3594"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="31" x="957.5" y="308.3545">com</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="112" x="1222" y="5"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="98" x="1229" y="24.9951">example.com</text><rect fill="#0B58A8" height="30.2969" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="112" x="1222" y="288.3594"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="98" x="1229" y="308.3545">example.com</text><polygon fill="#FFFFFF" points="351,63.4297,361,67.4297,351,71.4297,355,67.4297" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58" x2="357" y1="67.4297" y2="67.4297"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="281" x="65" y="62.3638">Do you know the IP of www.example.com.?</text><polygon fill="#FFFFFF" points="69,92.5625,59,96.5625,69,100.5625,65,96.5625" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="362" y1="96.5625" y2="96.5625"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="80" x="75" y="91.4966">172.24.0.10.</text><polygon fill="#FFFFFF" points="656,121.6953,666,125.6953,656,129.6953,660,125.6953" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="363" x2="662" y1="125.6953" y2="125.6953"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="281" x="370" y="120.6294">Do you know the IP of www.example.com.?</text><polygon fill="#FFFFFF" points="374,150.8281,364,154.8281,374,158.8281,370,154.8281" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="368" x2="667" y1="154.8281" y2="154.8281"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="80" x="380" y="149.7622">172.24.0.10.</text><polygon fill="#FFFFFF" points="961,179.9609,971,183.9609,961,187.9609,965,183.9609" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="668" x2="967" y1="183.9609" y2="183.9609"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="281" x="675" y="178.895">Do you know the IP of www.example.com.?</text><polygon fill="#FFFFFF" points="679,209.0938,669,213.0938,679,217.0938,675,213.0938" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="673" x2="972" y1="213.0938" y2="213.0938"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="80" x="685" y="208.0278">172.24.0.10.</text><polygon fill="#FFFFFF" points="1266,238.2266,1276,242.2266,1266,246.2266,1270,242.2266" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="973" x2="1272" y1="242.2266" y2="242.2266"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="281" x="980" y="237.1606">Do you know the IP of www.example.com.?</text><polygon fill="#FFFFFF" points="984,267.3594,974,271.3594,984,275.3594,980,271.3594" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="978" x2="1277" y1="271.3594" y2="271.3594"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="166" x="990" y="266.2935">Yep, the IP is 172.24.0.10.</text><!--MD5=[8de8317121e9721921604f48a6de47b5]
+@startuml
+!theme amiga
+
+Resolver - -> LocalNS: Do you know the IP of www.example.com.?
+Resolver <- - LocalNS: 172.24.0.10.
+
+LocalNS - -> RootNS: Do you know the IP of www.example.com.?
+LocalNS <- - RootNS: 172.24.0.10.
+
+RootNS - -> com: Do you know the IP of www.example.com.?
+RootNS <- - com: 172.24.0.10.
+
+com - -> example.com: Do you know the IP of www.example.com.?
+com <- - example.com: Yep, the IP is 172.24.0.10.
+@enduml
+
+@startuml
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #0B58A8
+    FontColor #FFFFFF
+    FontName Verdana
+    HyperLinkColor #FDA325
+    LineColor #FFFFFF
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #FFFFFF
+skinparam BackgroundColor #0B58A8
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #FFFFFF
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #0B58A8
+  BarColor #FFFFFF
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #FFFFFF
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #0B58A8
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #FDA325
+}
+skinparam IconPackage {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPrivate {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconProtected {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPublic {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam Note {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #FFFFFF
+}
+skinparam Package {
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+}
+skinparam StereotypeA {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeC {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeE {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeI {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeN {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam UseCaseStereoType {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+
+Resolver - -> LocalNS: Do you know the IP of www.example.com.?
+Resolver <- - LocalNS: 172.24.0.10.
+
+LocalNS - -> RootNS: Do you know the IP of www.example.com.?
+LocalNS <- - RootNS: 172.24.0.10.
+
+RootNS - -> com: Do you know the IP of www.example.com.?
+RootNS <- - com: 172.24.0.10.
+
+com - -> example.com: Do you know the IP of www.example.com.?
+com <- - example.com: Yep, the IP is 172.24.0.10.
+@enduml
+
+PlantUML version 1.2022.7beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
