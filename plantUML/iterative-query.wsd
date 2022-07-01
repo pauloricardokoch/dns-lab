@@ -1,5 +1,4 @@
 @startuml iterative-query
-title Iterative query
 
 Resolver --> LocalNS: Do you know the IP of www.example.com.?
 Resolver <-- LocalNS: Nope, contact root NS.
